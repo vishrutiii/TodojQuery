@@ -1,0 +1,111 @@
+body {
+    background: #BE93C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background-image: linear-gradient(to right, skyblue, lightgreen, yellow); */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    background-color: rgb(44, 159, 204);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    margin: 0;
+}
+
+input {
+    border: none;
+    height: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px 10px 20px ;
+    background-color: lavenderblush;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+}
+
+li {
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    /* padding-left: 5px; */
+}
+
+#container {
+    /* background-color: gray; */
+    width: 360px;
+    margin: 100px auto;
+    /* border: 2px solid gray; */
+    background-color: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.done {
+    color: gray;
+    text-decoration: line-through;
+    /* text-decoration-color: black; */
+}
+
+
+.fa-calendar-plus {
+    float: right;
+}
+
+
+
+li:nth-child(2n){
+    background-color: lavenderblush;
+}
+
+li {
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    /* padding-left: 5px; */
+}
+
+input:focus {
+    background-color: white;
+    border: solid steelblue;
+    outline: none;
+}
+
+span{
+    background-color:rgb(255, 0, 0, 0.5);
+    height: 40px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    text-align: center;
+    width: 0px;
+    display: inline-block;
+    /* display: none ; */
+    color: white;
+}
+.del:nth-child(2n){
+    color: lavenderblush;
+}
+/* .del {
+    color: rgb(255, 0, 0, 0.5); */
+    /* transition: width 2s, height 4s; */
+    /* display: none; */
+/* } */
+
+li:hover span {
+    /* display: block; */
+    width: 40px;
+    transition: 0.2s linear;
+    /* color: red; */
+}
+
+.rem {
+    display: none;
+    transition: ease-in-out 0.5s;
+}
